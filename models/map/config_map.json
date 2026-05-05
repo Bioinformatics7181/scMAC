@@ -1,0 +1,22 @@
+{
+    "BATCH_SIZE": 256,
+    "EPOCHS": 1000,
+    "LR": 0.001,
+    "FILTERS_N": 1,
+    "SEED": 2026,
+    "LOG_INR": 10,
+    "IS_TRAINING_MODE": false,
+    "USE_V": true,
+    "USE_J": true,
+    "IS_UNKNOWN": false,
+    "CLEAN_MODELS": false,
+    "ENABLE_REJECTION": true,
+    "REJECTION_PERCENTILE": 99.9,
+    "MAP_W_ALIGN": 0.05,
+    "MAP_W_PROTO": 0.2,
+    "MAP_W_KLD": 0.001,
+    "CGCL_W_CONTRAST": 1.0,
+    "CGCL_W_KLD": 0.01,
+    "CGCL_TEMP": 0.1,
+    "TCRD_DROPOUT": 0.4
+}

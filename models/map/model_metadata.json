@@ -1,0 +1,22 @@
+{
+  "model_file": "final_model_map.pth",
+  "source": "Selected from the original five-fold scMAC-MAP training outputs.",
+  "selected_fold": 4,
+  "selection_reason": "Fold 4 had the highest macro F1-score among the five validation folds, matching the manuscript emphasis on balanced functional context completion.",
+  "fold_4_metrics": {
+    "accuracy": 0.7125,
+    "macro_f1": 0.4530,
+    "weighted_f1": 0.7320,
+    "macro_precision": 0.4667,
+    "macro_recall": 0.4443,
+    "smape": 56.5401,
+    "r2": 0.9782,
+    "pearson_r": 0.9943,
+    "ccc": 0.9879,
+    "bray_curtis": 0.0725,
+    "slope": 0.8871,
+    "jsd": 0.1119,
+    "mae": 0.0207
+  },
+  "manuscript_note": "The manuscript cross-validation results were computed from all five folds. This single model is provided for direct inference and deployment examples."
+}

@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.venv/
+.deps/
+outputs/
+checkpoints/
+
+# Keep the small processed examples and supplied MAP deployment model in this
+# manuscript code package. Add project-specific ignore rules here if a future
+# dataset or model file is too large for the intended release channel.
